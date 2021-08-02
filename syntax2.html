@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>syntax 2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+      }
+      .content {
+        width: 300px;
+        min-height: 200px;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.3);
+      }
+      .content button {
+        display: block;
+        margin: 10px auto;
+        width: 120px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+      }
+      .content input {
+        height: 30px;
+        margin: 10px 0px;
+        outline: none;
+      }
+      .content h3 {
+        line-break: strict;
+        word-break: break-all;
+        width: 100px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h3 id="answer">Answer</h3>
+    <input type="number" id="firstNumber" />
+    <span>+</span>
+    <input type="number" id="secondNumber" /> 
+    <button onclick="btnAddClicked()">Check Answer</button>
+-->
+    <div class="container">
+      <div class="content">
+        <h3 id="answer">Answer</h3>
+        <input type="number" id="number" />
+        <button onclick="addTo()">Add To</button>
+      </div>
+    </div>
+
+    <script src="syntax2.js"></script>
+  </body>
+</html>
